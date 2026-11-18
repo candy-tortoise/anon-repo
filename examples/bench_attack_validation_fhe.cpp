@@ -91,7 +91,7 @@ CryptoContext<DCRTPoly> SetupAttackFHEContext(std::int64_t P, uint32_t N, KeyPai
                                               std::size_t d)
 {
 	CCParams<CryptoContextBGVRNS> parameters;
-	parameters.SetMultiplicativeDepth(7);
+	parameters.SetMultiplicativeDepth(5);
 	parameters.SetPlaintextModulus(P);
 	parameters.SetRingDim(N);
 	parameters.SetSecurityLevel(HEStd_128_classic);
