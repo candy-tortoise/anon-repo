@@ -1,0 +1,7 @@
+Attack,Verifier,Input family,Trials,Accepted,Incorrect and accepted,Acceptance rate,Forgery success rate,AvgServerTime_s,AvgAttackTime_s,AvgClientVerifyTime_s
+Column transformation,Algorithm 4 (DataSeal),Dense random,20,20,20,1.0000,1.0000,2.149879,0.013979,0.001744
+Column transformation,CATCH-II (Ours),Dense random,20,0,0,0.0000,0.0000,2.929801,0.013979,0.027199
+Bilinear cancellation,Combined (DataSeal),Identity (I_2 embedded),20,20,20,1.0000,1.0000,2.309816,0.013695,0.001638
+Bilinear cancellation,CATCH-II (Ours),Identity (I_2 embedded),20,0,0,0.0000,0.0000,3.148069,0.013695,0.032192
+Two-key cancellation,Two-key combined (DataSeal),Rank-3 identity (I_3),20,20,20,1.0000,1.0000,2.424923,0.099774,0.001436
+Two-key cancellation,CATCH-II (Ours),Rank-3 identity (I_3),20,0,0,0.0000,0.0000,3.311540,0.099774,0.035354

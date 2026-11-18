@@ -1,0 +1,7 @@
+IndentWidth: 8
+TabWidth: 8
+UseTab: ForIndentation
+BreakBeforeBraces: Linux
+ColumnLimit: 120
+InsertBraces: True
+BreakTemplateDeclarations: Yes
